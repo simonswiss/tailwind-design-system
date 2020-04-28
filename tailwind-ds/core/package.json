@@ -1,0 +1,16 @@
+{
+  "name": "@tailwind-ds/core",
+  "version": "1.0.0",
+  "description": "A very simple React button within a monorepo",
+  "main": "dist/core.cjs.js",
+  "module": "dist/core.esm.js",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "postcss-cli": "^7.1.1",
+    "react": "^16.13.1",
+    "tailwindcss": "^1.3.5"
+  },
+  "scripts": {
+    "build:tailwind": "postcss src/input.css -o src/output.css"
+  }
+}

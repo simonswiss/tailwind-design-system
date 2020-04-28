@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-design-system-website",
+  "version": "1.0.0",
+  "description": "A very simple React button within a monorepo",
+  "dependencies": {
+    "@preconstruct/next": "^1.0.1",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
