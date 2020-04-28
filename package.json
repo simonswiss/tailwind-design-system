@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start:website": "cd website && yarn dev",
     "postinstall": "preconstruct dev",
     "build": "preconstruct build"
   },
