@@ -1,10 +1,14 @@
 import React from "react";
-
-// import "./styles/output.css";
+import { Global } from "@emotion/core";
 
 import { ThemeProvider } from "./theme";
 export { useTheme } from "./theme";
 
 export function Core({ children }) {
-  return <ThemeProvider>{children}</ThemeProvider>;
+  return (
+    <ThemeProvider>
+      <Global styles={require("./styles/output.css")} />
+      {children}
+    </ThemeProvider>
+  );
 }

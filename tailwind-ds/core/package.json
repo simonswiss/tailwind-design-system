@@ -5,6 +5,7 @@
   "main": "dist/core.cjs.js",
   "module": "dist/core.esm.js",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "@fullhuman/postcss-purgecss": "^2.1.2",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
