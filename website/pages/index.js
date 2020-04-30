@@ -1,9 +1,12 @@
 import React from "react";
 
+import { useTheme } from "../tailwind-ds/core";
+
 export default function Homepage() {
+  const { theme } = useTheme();
   return (
-    <div className="bg-primary py-4">
-      <h1>Hello</h1>
+    <div className="bg-primary py-4 px-8 w-full text-white">
+      <h1 className="text-xl">Hello, {theme.replace("-", " ")}!</h1>
     </div>
   );
 }

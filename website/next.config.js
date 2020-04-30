@@ -1,2 +1,2 @@
-const withPreconstruct = require("@preconstruct/next");
-module.exports = withPreconstruct();
+// const withPreconstruct = require("@preconstruct/next");
+// module.exports = withPreconstruct();

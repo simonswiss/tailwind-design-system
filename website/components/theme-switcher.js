@@ -1,15 +1,30 @@
 import React from "react";
 
-import { useTheme } from "@tailwind-ds/core";
+import { useTheme } from "../tailwind-ds/core";
+import { Button } from "../tailwind-ds/button";
 
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
 
-  const isLight = theme === "theme-light";
+  const brands = ["brand-one", "brand-two"];
 
   return (
-    <button onClick={() => setTheme(isLight ? "theme-dark" : "theme-light")}>
-      Switch to {isLight ? "dark" : "light"} mode
-    </button>
+    <div className="space-y-4 text-right">
+      {brands
+        .filter((brand) => brand !== theme)
+        .map((brand, index) => {
+          return (
+            <div key={index}>
+              <Button
+                size="small"
+                variant="base"
+                onClick={() => setTheme(brand)}
+              >
+                {brand.replace("-", " ")}
+              </Button>
+            </div>
+          );
+        })}
+    </div>
   );
 }

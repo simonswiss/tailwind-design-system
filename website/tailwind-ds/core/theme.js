@@ -2,12 +2,14 @@ import React, { createContext, useState, useContext } from "react";
 
 const ThemeContext = createContext();
 
-export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState("theme-light");
+export const ThemeProvider = ({ children, theme: propTheme }) => {
+  const [theme, setTheme] = useState("brand-one");
+
+  const themeClassName = propTheme?.length > 0 ? propTheme : theme;
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      {children}
+      <div className={themeClassName}>{children}</div>
     </ThemeContext.Provider>
   );
 };

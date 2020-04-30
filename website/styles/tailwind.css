@@ -1,10 +1,8 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
-.theme-light {
+.brand-one {
   --color-primary: theme("colors.purple.600");
   --color-primary-hover: theme("colors.purple.500");
   --color-secondary: theme("colors.indigo.600");
@@ -14,12 +12,12 @@
   --color-base-inverted: theme("colors.gray.900");
 }
 
-.theme-dark {
-  --color-primary: theme("colors.gray.400");
-  --color-primary-hover: theme("colors.gray.400");
-  --color-secondary: theme("colors.gray.400");
-  --color-secondary-hover: theme("colors.gray.400");
-  --color-base: theme("colors.gray.400");
-  --color-muted: theme("colors.gray.400");
-  --color-base-inverted: theme("colors.gray.400");
+.brand-two {
+  --color-primary: theme("colors.pink.600");
+  --color-primary-hover: theme("colors.pink.500");
+  --color-secondary: theme("colors.teal.600");
+  --color-secondary-hover: theme("colors.teal.500");
+  --color-base: theme("colors.gray.100");
+  --color-muted: theme("colors.gray.200");
+  --color-base-inverted: theme("colors.gray.900");
 }

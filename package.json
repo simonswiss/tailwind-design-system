@@ -4,23 +4,12 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start:website": "cd website && yarn dev",
-    "postinstall": "preconstruct dev",
-    "build": "preconstruct build"
+    "start:website": "cd website && yarn dev"
   },
   "workspaces": [
-    "website",
-    "tailwind-ds/*"
+    "website"
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@preconstruct/cli": "^1.1.12"
-  },
-  "preconstruct": {
-    "packages": [
-      "tailwind-ds/*"
-    ]
-  }
+  "license": "ISC"
 }

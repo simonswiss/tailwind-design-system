@@ -1,4 +1,9 @@
 module.exports = {
+  purge: [
+    "./website/pages**/*.js",
+    "./website/components/**/*.ds",
+    "./website/tailwind-ds/**/*.ds",
+  ],
   theme: {
     extend: {
       colors: {

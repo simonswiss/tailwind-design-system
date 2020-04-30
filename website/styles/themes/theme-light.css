@@ -1,0 +1,9 @@
+.theme-light {
+  --color-primary: theme("colors.purple.600");
+  --color-primary-hover: theme("colors.purple.500");
+  --color-secondary: theme("colors.indigo.600");
+  --color-secondary-hover: theme("colors.indigo.500");
+  --color-base: theme("colors.gray.100");
+  --color-muted: theme("colors.gray.200");
+  --color-base-inverted: theme("colors.gray.900");
+}

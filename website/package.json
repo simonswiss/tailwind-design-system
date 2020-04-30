@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "A very simple React button within a monorepo",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "@preconstruct/next": "^1.0.1",
+    "classnames": "^2.2.6",
     "next": "^9.3.5",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.4.0"
   },
   "scripts": {
     "dev": "next",
