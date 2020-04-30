@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "yarn start:website",
     "start:website": "cd website && yarn dev"
   },
   "workspaces": [

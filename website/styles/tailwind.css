@@ -21,3 +21,13 @@
   --color-muted: theme("colors.gray.200");
   --color-base-inverted: theme("colors.gray.900");
 }
+
+.brand-three {
+  --color-primary: theme("colors.teal.500");
+  --color-primary-hover: theme("colors.teal.400");
+  --color-secondary: theme("colors.teal.600");
+  --color-secondary-hover: theme("colors.teal.500");
+  --color-base: theme("colors.gray.100");
+  --color-muted: theme("colors.gray.200");
+  --color-base-inverted: theme("colors.gray.900");
+}

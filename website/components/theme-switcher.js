@@ -6,7 +6,7 @@ import { Button } from "../tailwind-ds/button";
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
 
-  const brands = ["brand-one", "brand-two"];
+  const brands = ["brand-one", "brand-two", "brand-three"];
 
   return (
     <div className="space-y-4 text-right">
