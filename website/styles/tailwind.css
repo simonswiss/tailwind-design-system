@@ -23,8 +23,8 @@
 }
 
 .brand-three {
-  --color-primary: theme("colors.teal.500");
-  --color-primary-hover: theme("colors.teal.400");
+  --color-primary: theme("colors.teal.600");
+  --color-primary-hover: theme("colors.teal.500");
   --color-secondary: theme("colors.teal.600");
   --color-secondary-hover: theme("colors.teal.500");
   --color-base: theme("colors.gray.100");
